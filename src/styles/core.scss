@@ -3,3 +3,41 @@
      background-color: #dedede;
      border-radius: 5px;
  }
+
+.block-small {
+    display: block;
+    min-height: 200px;
+}
+
+.block-large {
+    display: block;
+    min-height: 400px;
+}
+
+.col {
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+}
+
+.wrapper {
+    flex-flow: row;
+    display: flex;
+    flex: 1;
+}
+
+.from-top {
+    background-color: #f44336;
+}
+
+.from-right {
+    background-color: #ffc107;
+}
+
+.from-bottom {
+    background-color: #3f51b5;
+}
+
+.from-left {
+    background-color: #4caf50;
+}

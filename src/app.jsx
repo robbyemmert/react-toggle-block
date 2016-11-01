@@ -5,23 +5,23 @@
  * In production, however, this needs to be included from the HTML file as a separate css file.
  */
 import styles from './styles'; // eslint-disable-line no-unused-vars
+import toggleBlockStyles from './styles/react-toggle-block.scss'; // eslint-disable-line no-unused-vars
 
 // JavaScript dependencies
 import React from 'react'; // eslint-disable-line no-unused-vars
 import { render } from 'react-dom';
-import { postList, singlePost } from './endpoints';
-window.postList = postList;
-window.singlePost = singlePost;
+
+import Demo from './demo.jsx';
 
 render((
     <div className="container">
         <div className="row">
             <div className="col-sm-12 header">
-                <h1>Welcome to Webpack!</h1>
-                <p>Feel free to start hacking!</p>
+                <h1>React Toggle Block</h1>
+                <p>An easy way to hide and show stuff with React JS</p>
             </div>
             <div className="col-sm-12">
-                <img src="/img/thumbs-up.png" width="250" />
+                <Demo />
             </div>
         </div>
     </div>

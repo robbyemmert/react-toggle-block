@@ -1,8 +1,8 @@
 {
-  "name": "api-map",
-  "version": "1.0.1",
-  "description": "A tool for mapping your REST endpoints to any JS client",
-  "main": "dist/js/api-map.js",
+  "name": "react-toggle-block",
+  "version": "1.0.0",
+  "description": "A simple way to toggle display panels in React JS",
+  "main": "dist/js/react-toggle-block.js",
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server --colors --progress --inline",
     "build": "./node_modules/.bin/webpack --progress --colors"
@@ -30,7 +30,6 @@
     "webpack": "^1.13.0",
     "webpack-dev-server": "^1.15.1",
     "bootstrap-grid": "^2.0.1",
-    "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "react-redux": "^4.4.5",
     "react-router": "^2.5.1",
@@ -38,6 +37,6 @@
     "redux-thunk": "^2.1.0"
   },
   "dependencies": {
-
+    "react": "^15.1.0"
   }
 }

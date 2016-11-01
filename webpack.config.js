@@ -76,13 +76,13 @@ var devConfig = {
 }
 
 var buildConfig = {
-    entry: './src/api-map.js',
+    entry: './src/react-toggle-block.js',
     output: {
         library: 'ApiMap',
         libraryTarget: 'umd',
         publicPath: '/',
         path: __dirname + '/dist',
-        filename: 'js/api-map.js'
+        filename: 'js/react-toggle-block.js'
     },
     devtool: 'source-map',
     module: {

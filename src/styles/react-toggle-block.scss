@@ -1,0 +1,42 @@
+.react-toggle-block {
+    position: relative;
+    overflow: hidden;
+
+    .toggle-block-panel {
+        position: relative;
+        transition: 500ms all ease;
+    }
+
+    &.entry-FROM_LEFT.visible .toggle-block-panel {
+        left: 0;
+    }
+
+    &.entry-FROM_LEFT .toggle-block-panel {
+        left: -100%;
+    }
+
+    &.entry-FROM_RIGHT.visible .toggle-block-panel {
+        right: 0;
+    }
+
+    &.entry-FROM_RIGHT .toggle-block-panel {
+        right: -100%;
+    }
+
+    &.entry-FROM_TOP.visible .toggle-block-panel {
+        margin-top: 0;
+    }
+
+    &.entry-FROM_TOP .toggle-block-panel {
+        margin-top: -100%;
+    }
+
+    &.entry-FROM_BOTTOM.visible {
+        padding-top: 0;
+    }
+
+    &.entry-FROM_BOTTOM {
+        padding-top: 100%;
+        height: 100%;
+    }
+}
